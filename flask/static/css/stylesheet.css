@@ -1,0 +1,49 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.hidden {
+	visibility: hidden;
+	position: absolute;
+}
+
+.label_item {
+	border: outset;
+	display: inline-block;
+	height: 70px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	width: 85px;
+	vertical-align: top;
+	padding-bottom: 10px;
+	text-align:center;
+}
+
+.hidden:checked + label {
+	border: inset #80d4ff ; 
+	opacity: 0.5;
+}
+
+.label_name {
+	text-align: center;
+}
+
+.radio label {
+	padding-left: 5px;
+}
